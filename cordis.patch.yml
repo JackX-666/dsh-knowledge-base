@@ -1,0 +1,12 @@
+# dsh-knowledge-base bundle layer: mounts the Host half (knowledge store,
+# `knowledgeBase` projection, `knowledge_base` tool, prompt section) and, through
+# package.json `dsh.client`, the browser half that registers the Knowledge View
+# beside Chat, Trajectory and Readme.
+- insert:
+    - id: knowledge-base
+      name: 'dsh-knowledge-base'
+      config:
+        dir: knowledge-base
+        autoWrite: true
+        injectPrompt: true
+        maxTurns: 60

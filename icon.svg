@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="Knowledge base">
+  <defs>
+    <linearGradient id="kb-cover" x1="3" y1="2" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6C8CFF"/>
+      <stop offset="1" stop-color="#3C55C8"/>
+    </linearGradient>
+  </defs>
+  <path d="M5.2 3.5h11.1c1.5 0 2.7 1.2 2.7 2.7v11.6c0 1.5-1.2 2.7-2.7 2.7H5.2c-.9 0-1.7-.8-1.7-1.7V5.2c0-.9.8-1.7 1.7-1.7Z" fill="url(#kb-cover)"/>
+  <path d="M6.6 3.5h1.9v16.5H6.6c-.6 0-1.1-.5-1.1-1.1V4.6c0-.6.5-1.1 1.1-1.1Z" fill="#EEF2FF" opacity=".9"/>
+  <path d="M10.4 8.1h6.2M10.4 11.3h6.2M10.4 14.5h4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity=".95"/>
+  <path d="M16.4 3.9h1.9v6.1l-1-.8-.9.8V3.9Z" fill="#FFD166"/>
+</svg>

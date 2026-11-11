@@ -1,0 +1,49 @@
+{
+  "name": "dsh-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Per-task knowledge base for DeepSeek Harness: one document per task, written through a tool, browsable in a Knowledge tab beside Chat and Trajectory.",
+  "license": "MIT",
+  "author": "JackX-666",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "knowledge-base",
+    "cordis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackX-666/dsh-knowledge-base.git"
+  },
+  "homepage": "https://github.com/JackX-666/dsh-knowledge-base#readme",
+  "bugs": {
+    "url": "https://github.com/JackX-666/dsh-knowledge-base/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

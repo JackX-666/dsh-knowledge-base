@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Knowledge base",
+    "description": "One knowledge document per task (goal, rules, method, permission boundaries, mappings, status) plus a Knowledge view tab, so another model can pick the task up."
+  }
+}
